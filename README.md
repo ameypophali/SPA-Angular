@@ -1,28 +1,7 @@
-# LambsAreUsFrontEndAngular
+RESTful-website-Angular4-frontend
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.7.
+As a part of this project restaurant business website was created that follows RESTful principle. The website uses Java Spring as back end and angular 2 at the front end with Hibernate as ORM tool.
 
-## Development server
+About the repository - This repository contains the front end code for the website. The front end has been writtern in Typescript, HTML, CSS. It connects to the Java Spring back end for accessing the data.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+The back end of the website is available in a different repository name 'RESTful-website-Java-SpringBoot-backend'.
