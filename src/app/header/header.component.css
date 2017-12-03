@@ -5,3 +5,8 @@
 .nav.navbar-nav{
     font-size: 20px;
 }
+
+.navbar-default {
+    background-color: rgb(255, 255, 255);
+    border-color: #E7E7E7;
+}
