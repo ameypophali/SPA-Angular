@@ -16,5 +16,12 @@
 }
 
 .aboutus {
-    padding-top: 20px;
+	padding-top: 10px;
+	background-image: url(../../assets/Images/our-story.jpg);
   }
+
+  .heading.text-center{
+	padding-top: 50px;
+  }
+
+  hr { background-color: black; height: 1px; border: 0; }
