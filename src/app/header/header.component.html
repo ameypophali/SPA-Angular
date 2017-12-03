@@ -1,0 +1,28 @@
+<nav class="nav navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">The Kitchen</a>
+        </div>
+
+        <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li routerLinkActive="active"><a routerLink="/recipes">Home</a></li>
+                <li routerLinkActive="active"><a routerLink="/shopping-list">About us</a></li>
+                <li routerLinkActive="active"><a routerLink="/recipes">Menu</a></li>
+                <li routerLinkActive="active"><a routerLink="/shopping-list">Contact</a></li>
+                <li class="dropdown" appDropdown>
+                        <a style="cursor: pointer;" 
+                        class="dropdown-toggle" 
+                        role="button">Login <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                                <li><a style="cursor: pointer;">Employee</a></li>
+                                <li><a style="cursor: pointer;">Customer</a></li>
+                                <li><a style="cursor: pointer;">New User?</a></li>
+                        </ul>
+                </li>
+            </ul>
+        </div>
+
+    </div>  
+</nav>
