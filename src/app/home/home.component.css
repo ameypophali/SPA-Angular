@@ -1,0 +1,12 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .blok1 {
+    height: 100%;
+    background-image: url(https://static.pexels.com/photos/372882/pexels-photo-372882.jpeg);
+    background-position: center center;
+    background-size: cover; 
+  }
+  
