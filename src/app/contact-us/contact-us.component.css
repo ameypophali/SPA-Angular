@@ -1,0 +1,15 @@
+form{
+    height: 200px;
+    width: 50%;
+    display: inline-block;
+    text-align: center;
+}
+
+.row.text-center {
+    height: 100%;
+    /* background-image: url(../../assets/Images/4.jpeg); */
+    background-image: url(https://static.pexels.com/photos/192312/pexels-photo-192312.jpeg);
+    background-position: center center;
+    background-size: cover; 
+    color:white;
+  }
