@@ -1,0 +1,11 @@
+<div class="row">
+    <div class="col-xs-12">
+      <app-menu-item
+        *ngFor="let item of menuitems"
+        [name]="item.name"
+        [description]="item.description"
+        [price]="item.price"
+        >
+      </app-menu-item>
+    </div>
+  </div>
