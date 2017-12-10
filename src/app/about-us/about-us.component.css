@@ -1,5 +1,6 @@
 .container {
 	font-family:'Spirax', cursive;
+	color:white;
 }
 
 .col-md-5{
@@ -17,11 +18,10 @@
 
 .aboutus {
 	padding-top: 10px;
-	background-image: url(../../assets/Images/our-story.jpg);
+	background-image: url(https://static.pexels.com/photos/164357/pexels-photo-164357.jpeg);
+	background-position: center center;
+    background-size: cover; 
   }
 
-  .heading.text-center{
-	padding-top: 50px;
-  }
 
-  hr { background-color: black; height: 1px; border: 0; }
+  hr { background-color: aliceblue;  }
