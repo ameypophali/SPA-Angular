@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router, ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-home',
@@ -7,9 +8,22 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router:Router,
+              private route:ActivatedRoute) { }
 
   ngOnInit() {
+  }
+
+  menuRedirect(){
+    this.router.navigate(['/menu'],{relativeTo:this.route});
+  }
+
+  contactUsRedirect(){
+    this.router.navigate(['/contactus'],{relativeTo:this.route});
+  }
+
+  employeeLoginRedirect(){
+    this.router.navigate(['/customer'],{relativeTo:this.route});
   }
 
 }

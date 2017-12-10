@@ -1,7 +1,55 @@
 <div class="container-fluid blok1">
-    <div class="row">
-      <div class="col-md-12">
-          
-      </div>
+
+    <div class="heading text-center"
+        style="font-size:150%">
+        <h1>The Resturant</h1>
     </div>
+
+    <hr width="45%">
+
+    <div class="modal-body row">
+        <div class="col-md-6 text-center">
+            <br>
+            <h2>Discover</h2>
+            <div class="row text-center" id = "discoverLines">
+                <h3>
+                    Planning a dine out or a delivery at home? <br>
+                    We offer variety of cusines and dishes at our resturant. 
+                </h3>  
+                <br>
+                <h3>
+                    Check our menu for a detailed description
+                </h3>
+            </div>
+            <br>
+            <button 
+            class="btn btn-info btn-lg"
+            (click)="menuRedirect()">Our Menu</button>
+        </div>
+
+        <div class="col-md-6 text-center">
+          
+            <br>
+            <h3>Opening hours</h3>
+            <br>
+            <h4>Monday-Friday: 08:00 AM - 22:00 PM</h4>
+              <h4>Weekends: 07:00 AM - 23:30 PM</h4> 
+            <br>
+            <div class="row">
+              <button 
+              class="btn btn-info btn-lg"
+              (click)="contactUsRedirect()">Contact us</button>
+            </div>
+            <br>
+            <div class="row">
+              <button 
+              class="btn btn-info btn-lg"
+              (click)="employeeLoginRedirect()">Order Online</button>
+            </div>
+            
+            <br><br><br><br><br><br><br>
+            <br><br><br><br><br>
+
+        </div>
+      </div>
 </div>

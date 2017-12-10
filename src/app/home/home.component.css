@@ -3,10 +3,28 @@ html, body {
     width: 100%;
   }
   
-  .blok1 {
+.blok1 {
     height: 100%;
-    background-image: url(https://static.pexels.com/photos/372882/pexels-photo-372882.jpeg);
+    background-image: url(../../assets/Images/home-background.jpg);
     background-position: center center;
     background-size: cover; 
+    
+  }
+
+  .modal-body.row{
+    color: antiquewhite;
+    text-decoration: bold;
+  }
+
+  .heading.text-center{
+    color: antiquewhite;
+    text-decoration: bold;
   }
   
+  
+  .row.text-center{
+    color: antiquewhite;
+    border-radius:10px;
+    padding: 5px;
+  }
+
