@@ -9,6 +9,7 @@ export class ItemTypeComponent implements OnInit {
   @Input() menuItemType: String;
  
   ngOnInit() {
+    
   }
 
 }

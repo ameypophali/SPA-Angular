@@ -10,17 +10,21 @@ import { Params } from '@angular/router';
   styleUrls: ['./menu-item-list.component.css']
 })
 export class MenuItemListComponent implements OnInit {
-  menuitems : Set<MenuItem> = new Set<MenuItem>();;
-  itemType : String = 'entree';
+  menuitems : Set<MenuItem> = new Set<MenuItem>();
+  //menuitems : MenuItem[];
+  var :string;
+  itemType : String;
   constructor(private menuItemService : MenuItemService,
               private route: ActivatedRoute) { }
   
     ngOnInit() {
-
       // this.menuItemService.fetchItemsFromServer()
       // .subscribe(
-      //   (response) => console.log(response),
-      //   (error) => console.log(error) 
+      //   (items : MenuItem[]) => {
+      //       console.log(items);
+      //       this.menuitems = items;
+      //   },
+      //   error => error 
       // );
 
       this.route.params.subscribe(
