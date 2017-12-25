@@ -2,7 +2,7 @@
     <div class="container-fluid">
 
         <div class="navbar-header">
-            <a class="navbar-brand" routerLink="/">The Kitchen</a>
+            <a class="navbar-brand" routerLink="/">The Restaurant</a>
         </div>
 
         <div class="collapse navbar-collapse">
@@ -17,17 +17,19 @@
                         >Login <span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li><a 
-                                [routerLink]="['/employee']"
-                                style="cursor: pointer;">Employee Login</a></li>
-                            <li><a 
                                 routerLink="/customer"
                                 style="cursor: pointer;">Customer Login</a></li>
-                            <li><a style="cursor: pointer;">New User?</a></li>
+                            <li><a 
+                                [routerLink]="['/customer','signup']"
+                                style="cursor: pointer;">Customer Registration</a></li>
+                            <li><a 
+                                    [routerLink]="['/employee']"
+                                    style="cursor: pointer;">Employee Login</a></li>
                         </ul>
                 </li>
 
-                <li routerLinkActive="active"><a routerLink="/recipes">Menu</a></li>
-                <li routerLinkActive="active"><a routerLink="/shopping-list">Contact</a></li>
+                <li routerLinkActive="active"><a routerLink="/menu">Menu</a></li>
+                <li routerLinkActive="active"><a routerLink="/contactus">Contact</a></li>
             </ul>
         </div>
 

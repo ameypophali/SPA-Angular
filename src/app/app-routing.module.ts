@@ -19,7 +19,7 @@ const appRoutes : Routes = [
     {path: 'home', component: HomeComponent},
     {path: 'about-us', component: AboutUsComponent},
     {path: 'menu', component: MenuComponent, children: [
-        {path: '', component: ItemTypeComponent, pathMatch:'full'},
+        {path: '', redirectTo: '/menu/Entree', pathMatch:'full'},
         {path: ':type', component: MenuItemListComponent}
     ]},
     {path: 'employee', component:EmployeeComponent, 
