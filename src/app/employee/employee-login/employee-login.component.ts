@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
+import { NgForm } from '@angular/forms';
 
 @Component({
   selector: 'app-employee-login',
@@ -6,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./employee-login.component.css']
 })
 export class EmployeeLoginComponent implements OnInit {
-
+  // @ViewChild('f') loginForm : NgForm;
   constructor() { }
 
   ngOnInit() {
